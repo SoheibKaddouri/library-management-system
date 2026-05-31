@@ -31,33 +31,33 @@ The project is structured around solid Object-Oriented Programming (OOP) princip
    git clone [https://github.com/YOUR_USERNAME/java-swing-library-manager.git](https://github.com/YOUR_USERNAME/java-swing-library-manager.git)
    cd java-swing-library-manager
 
-# Build and Run the Project
+## Build and Run the Project
 
-## Building with Maven
+### Building with Maven
 
 Open your terminal and run:
 ```bash
 mvn clean compile
 ```
 
-## Executing the Application
+### Executing the Application
 Run:
 ```bash
 mvn exec:java
 ```
 
-## Running via an IDE (NetBeans/IntelliJ/Eclipse)
+### Running via an IDE (NetBeans/IntelliJ/Eclipse)
 1. Open the project folder directly in your preferred IDE. It will automatically recognize it as a Maven project via the `pom.xml`.
 2. Right-click the project root and select **Clean and Build**.
 3. Locate `LibraryCentre.java` inside `src/main/java/librarycentre_package/`, right-click it, and select **Run File**.
 
-## Running the Test Suite
+### Running the Test Suite
 To execute the automated JUnit unit tests, run:
 ```bash
 mvn test
 ```
 
-# Challenges Overcame
+## Challenges Overcame
 1. **Synchronizing Swing Components with Custom Data Collections**
    - Integrating a standard Java `ArrayList<Item>` directly into a `JTable` GUI display was highly problematic initially, as standard table models don't handle custom object lists seamlessly.
    - **Solution:** Built a bespoke `ItemTableModel` extending `AbstractTableModel`. This created a clean buffer wrapper that dynamically mapped object properties (like `getISBN()`, `getTitle()`) directly into zero-indexed table columns, ensuring the UI updates predictably whenever library data changes.
