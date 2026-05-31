@@ -1,0 +1,10 @@
+librarycentre_package\ItemTableGUI$GUIListener.class
+librarycentre_package\Item.class
+librarycentre_package\ItemTableModel.class
+librarycentre_package\LibraryManager.class
+librarycentre_package\SimpleLibraryManager.class
+librarycentre_package\ItemTableGUI.class
+librarycentre_package\Magazine.class
+librarycentre_package\Book.class
+librarycentre_package\DVD.class
+librarycentre_package\LibraryCentre.class
