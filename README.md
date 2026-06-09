@@ -30,7 +30,7 @@ The project is structured around solid Object-Oriented Programming (OOP) princip
    ```bash
    git clone [https://github.com/YOUR_USERNAME/java-swing-library-manager.git](https://github.com/YOUR_USERNAME/java-swing-library-manager.git)
    cd java-swing-library-manager
-
+   ```
 ## Build and Run the Project
 
 ### Building with Maven
